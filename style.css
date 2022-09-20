@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(22, 19, 27);
+}
+
+.home {
+    position: relative;
+    width: 65%;
+    height: 100%;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.signup {
+    width: 35%;
+    background-color: #1c1b1d;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    font-size: xx-large;
+    color: rgb(224, 224, 224);
+}
+
+h1 {
+    color: rgb(18, 124, 223);
+}
+
+.title {
+    height: 20%;
+    margin: 0 auto;
+}
+
+form {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    justify-content: space-around;
+}
+
+label {
+    display: block;
+    font-size: large;
+}
+
+input {
+    width: 100%;
+    border: white;
+    height: 2rem;
+    border-radius: 2rem;
+    padding: 0 1rem;
+}
+
+span {
+    font-size: small;
+}
+
+button  {
+    display: block;
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 30px;
+    font-size: large;
+    margin-top: 2rem;
+    background-color: rgb(92, 92, 247);
+    transition-timing-function: ease;
+    transition-duration: 0.5s;
+}
+
+button:hover {
+    background-color: white;
+}
+
